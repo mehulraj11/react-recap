@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-
+//IN REACT useEFFECT INTENTIONALLY MOUNTS -> UNMOUNTS -> MOUNTS THE API TO CHECK THE SIDE EFFECT
+// WE CAN STOP IS BY DISABLING STRICT MODE IN INDEX.JSX
 const Fetch = () => {
   const [next, setNext] = useState(0);
   const [data, setData] = useState("");
