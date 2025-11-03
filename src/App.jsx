@@ -9,6 +9,7 @@ import Todo from "./components/Todo";
 import FAQ from "./components/FAQ";
 import StopWatch from "./components/StopWatch";
 import Fetch from "./components/Fetch";
+import Pagination from "./components/Pagination";
 
 function App() {
   const que = [
@@ -22,7 +23,8 @@ function App() {
 
   return (
     <>
-      <Fetch />
+      <Pagination />
+      {/* <Fetch /> */}
       {/* <StopWatch /> */}
       {/* <FAQ que={que} /> */}
       {/* <Todo /> */}
