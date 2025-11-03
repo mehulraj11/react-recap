@@ -8,6 +8,7 @@ import SearchFilter from "./components/SearchFilter";
 import Todo from "./components/Todo";
 import FAQ from "./components/FAQ";
 import StopWatch from "./components/StopWatch";
+import Fetch from "./components/Fetch";
 
 function App() {
   const que = [
@@ -21,7 +22,8 @@ function App() {
 
   return (
     <>
-      <StopWatch />
+      <Fetch />
+      {/* <StopWatch /> */}
       {/* <FAQ que={que} /> */}
       {/* <Todo /> */}
       {/* <SearchFilter /> */}
