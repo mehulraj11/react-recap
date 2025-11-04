@@ -4,6 +4,7 @@ const Pagination = () => {
   const [data, setData] = useState([]);
   const [page, setPage] = useState(1);
   const itemsPerPage = 3;
+// console.log("k");
 
   useEffect(() => {
     api();
